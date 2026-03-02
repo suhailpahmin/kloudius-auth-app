@@ -48,7 +48,7 @@ Required:
 
 1. Clone the repository:
 ```sh
-git clone <repository-url>
+git clone https://github.com/suhailpahmin/kloudius-auth-app.git
 cd kloudius-user-auth
 ```
 
