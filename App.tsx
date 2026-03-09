@@ -4,7 +4,7 @@ import {
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
 import { PaperProvider, MD3LightTheme, MD3DarkTheme } from 'react-native-paper';
-import { AuthProvider } from './src/context/auth_context';
+import { AuthProvider } from './src/context/auth_provider';
 import MainApp from './src/main';
 import React from 'react';
 import Icon from 'react-native-vector-icons/Feather';

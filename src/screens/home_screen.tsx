@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import { Card, Button, Text, Avatar, Divider, useTheme, Appbar } from 'react-native-paper';
-import { AuthContext } from '../context/auth_context';
+import { AuthContext } from '../context/auth_provider';
 
 const HomeScreen = () => {
     const auth = useContext(AuthContext);

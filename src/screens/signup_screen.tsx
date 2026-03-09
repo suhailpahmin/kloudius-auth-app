@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { View, StyleSheet, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { TextInput, Button, Text, HelperText, useTheme, Snackbar } from 'react-native-paper';
-import { AuthContext } from '../context/auth_context';
+import { AuthContext } from '../context/auth_provider';
 
 const SignupScreen = ({ navigation }: any) => {
     const [name, setName] = useState('');
