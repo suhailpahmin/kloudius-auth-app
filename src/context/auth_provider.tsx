@@ -73,7 +73,6 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         setUser(null);
         setError(null);
         await AsyncStorage.removeItem('user_session');
-        // Keep credentials so user can log back in
     };
 
     return (
